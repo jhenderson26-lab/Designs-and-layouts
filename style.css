@@ -1,33 +1,48 @@
-h1 {
-    color: red;
+.title {
+    font-size: 28px;
 }
 
-.controls {
+.main_body {
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+} 
+
+.where_to_go a{
     display: flex;
-    text-align: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
+
+}
+
+.where_to_go {
     padding: 2%;
     background-color: gold;
-    
 }
+
 .color-links a{
     font-size: 23px;
     color: green;
 
 }
 
-h3 {
-    font-size: 28px;
-}
-
-body {
-    background-color: black;
-    padding: 30px;
+.controls {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
 }
 
 .highlight {
     background-color:rgb(212, 186, 70);
 }
+
+.where_stuff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ----------^^^^^^^^^^-- everything above title "About Me" --^^^^-------*/
+
+
 
 #main-title {
     text-align: center;
@@ -38,57 +53,75 @@ body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-p {
+.about_me {
     margin-top: 25px;
     color: gold;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 10px;
+    
     font-size: 20px;
 }
 
 .My_Hobbies, .Photo_Gallery, .Weekly_Schedule{
     text-align: center;
 
-    padding: 10px;
 }
 
 .listItems p{
     text-align: center;
-    color: gold;
+    color:gold;
+}
+
+.picture{
+    display: flex;
+    flex-direction:row;
+    
+}
+.picture img{
+    border: 3px solid white;
+}
+
+.center_pics {
+    display:flex;
+    justify-content: center;
+}
+
+
+.video_game-picture, .warhammer, .marvel_game_thor{
+    /* display: block; */
+    
+    flex-direction:row;
+    border: 5px solid #000000;
+    text-align: left;
 }
 
 
 
-
-
-table, th, td {
-    border: 1px solid;
+.table_layout, .title, .table_text {
+    border: 1px solid goldenrod;
     text-align: center;
-    color: gold;
-
+    
+    
 }
 
-table {
+.table_text {
+    color: gold;
+} 
+
+
+.title_color {
+    font-size: 20px;
+    color: gold;
+}
+
+
+.table_layout {
     width: 40%;
 }
 
-div {
+.table {
     width: 100%;
     display: flex;
     justify-content: center;
     padding-bottom: 25px;
 }
-
-
-#pics {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    
-}
-
-.video_game-picture, .warhammer, .marvel_game_thor{
-    border: 5px solid white;
-}
-
